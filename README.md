@@ -2,6 +2,7 @@
 The IoT-based attendance monitoring system utilizing RFID technology and the ThingSpeak cloud platform.
 
 Introduction
+
 Software called the Attendance Monitoring System was created to track daily attendance
 in schools, universities, institutes, and businesses. It makes it easier to get a specific
 user’s attendance data every day. The operators, who will be supplied by the owner, sift
@@ -11,6 +12,7 @@ process of taking attendance. The software’s ability to automatically generate
 the session’s end or in between sessions is another reason for its development.
 
 Objectives
+
 • The purpose of the attendance monitoring software is to reduce the time that is
 consumed when attendance is taken manually.
 • Weekly and monthly attendance reports for the employee are produced.
@@ -19,6 +21,7 @@ consumed when attendance is taken manually.
 cloud and tweet will be sent.
 
 EM18 reader module and RFID tags
+
 Radio waves are used by Radio frequency Identification (RFID), a wireless identification
 technique, to detect the presence of RFID tags. RFID technology is used to identify the
 presence of persons, objects, etc., just like a bar code reader. With bar code technology,
@@ -28,7 +31,9 @@ also become distorted or illegible, which rarely happens with most RFID. RFID is
 in many different applications, such as an attendance system that provides each person
 with a unique RFID tag to aid in identifying them and their attendance. Many businesses
 utilise RFID to grant access to their authorised staff.
+
 2.1.1 Specifications
+
 • EM-18 operating voltage : +4.5V to +5.5V
 • Current : 50mA.
 • Can operate at low power.
