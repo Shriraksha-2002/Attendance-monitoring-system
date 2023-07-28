@@ -15,8 +15,11 @@ Objectives
 
 • The purpose of the attendance monitoring software is to reduce the time that is
 consumed when attendance is taken manually.
+
 • Weekly and monthly attendance reports for the employee are produced.
+
 • When we scan RFID tag count of visitors and their name will be displayed on LCD.
+
 • At the same time, entry date,time and other details will be recorded in ThingSpeak
 cloud and tweet will be sent.
 
