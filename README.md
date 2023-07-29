@@ -33,6 +33,8 @@ consumed when attendance is taken manually.
 • At the same time, entry date,time and other details will be recorded in ThingSpeak
 cloud and tweet will be sent.
 
+System Design
+
 EM18 reader module and RFID tags
 
 Radio waves are used by Radio frequency Identification (RFID), a wireless identification
@@ -64,7 +66,6 @@ Specifications:
 • Integrated Antenna.
 
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/de9ebea1-6ba5-4538-a668-474f0d1ef0ee)
-
 
 NODE MCU
 
@@ -106,8 +107,6 @@ Specifications
 
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/e121cacb-a832-4985-ba48-8112a8b4ae44)
 
- 
-
 16x2 LCD DISPLAY WITH I2C PROTOCOL
 
 A 16x2 LCD means it can display 16 characters per line and there are 2 such lines. In this
@@ -141,6 +140,7 @@ to connect wires to it.
 Design Planning And Implementation
 
 Functional Block Diagram
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/d6b2296f-567b-4c4c-a789-b87d0c64fc2f)
 
 Firstly , power supply is given to NodeMCU and RFID tag is scanned, then the number
@@ -150,9 +150,11 @@ a tweet is sent to twitter account.
 
 
 Flowchart
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/0a7273cd-afbb-4984-827f-f368a87def7d)
 
 Model alternatives
+
 There are 3 different reader modules to read the RFID tags :-
 
 1.RC522
@@ -195,24 +197,31 @@ than other modules and is more convenient for our project.
 
 
 Results And Discussions
+
 Output in serial window
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/a3138bc7-066e-4076-b427-ebc76a379252)
 
 Lcd Results
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/611bf467-84d1-43db-b286-5000665b4d71)
 
 ThingSpeak results
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/0f2274a3-bcda-4e2f-9c27-49a07710f430)
 
 Numeric data
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/88c98b31-16a7-4545-9bf6-ac47c9c3b34a)
 
 Twitter Results
+
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/622277f3-c4eb-4a66-b388-2726b522e422)
 
 
 
 Conclusion
+
 The IoT-based attendance monitoring system is very successful and reliable. It can be
 turned into an efficient and error-free attendance management system for schools, colleges,
 and other organizations.In our project, we have used RFID sensor.Each user will be
@@ -225,6 +234,7 @@ easy to use and very convenient, making it a great choice for any organization. 
 have completed our project successfully.
 
 Future Scope
+
 The Internet of Things (IoT) is a growing technology that is being used more and more
 around the world. It allows us to have a more in-depth understanding of other cloud-based
 applications, as well as to develop enhanced solutions using technologies such as touch
