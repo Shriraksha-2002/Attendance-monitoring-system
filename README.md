@@ -138,4 +138,98 @@ to connect wires to it.
 
 ![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/70597b57-a93d-45ab-900f-61e96795c1ef)
 
+Design Planning And Implementation
+
+Functional Block Diagram
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/d6b2296f-567b-4c4c-a789-b87d0c64fc2f)
+
+Firstly , power supply is given to NodeMCU and RFID tag is scanned, then the number
+of visitors and visitor’s name will be displayed on LCD. Count of visitors and their details
+such as entry date,time,month will be sent to ThingSpeak. For every RFID based entry
+a tweet is sent to twitter account.
+
+
+Flowchart
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/0a7273cd-afbb-4984-827f-f368a87def7d)
+
+Model alternatives
+There are 3 different reader modules to read the RFID tags :-
+
+1.RC522
+• An RFID system uses tags to identify objects. The tags are attached to the objects,
+and a reader can use radio waves to scan the tags.
+• A reader is like a radio that can read tags that have been attached to something else.
+The reader sends out a high frequency electromagnetic field that can read the tag..
+• The microchip has a lot of storage space for storing information and a transmitter
+for sending signals.
+• The tag reader produces an electric field when it is close to the tag. This causes the
+tag’s antenna to pick up electrons, which then powers the chip.
+
+2.PN532
+• The PN532 is a chip that can be used for communication without having to connect
+to a wire. It has a microcontroller inside that is based on an 80C51 core. This
+chip has a lot of memory (40 kilobytes) and is able to run programs very quickly (1
+kilobyte).
+
+• The PN532 is a radio that can be used for contactless communication methods and
+protocols, like 13.56 MHz radio waves. It has an easy-to-use firmware, so you can
+use it with different modes and host controllers.
+• The chip can be used as a RFID reader/writer, or as a virtual card (supported by
+Android phones), and it can also work with Arduino.
+
+3. EM18 READER MODULE
+• Radio frequency identification (RFID) is a way to use radio waves to automatically
+identify and track tags attached to objects.
+• The tags have small chips that hold information. This RFID reader module is easy
+to use and small enough to fit in your pocket.
+• The antenna on this module helps you to access the information on a card by transmitting
+its unique ID. You need to power the module and hold the card up so the
+antenna can pick up its signal. Then, you can use a computer to see the serial string
+that the module outputs, which will contain the card’s unique ID.
+3.4 Module chosen
+We have chosen the em18 reader module over other options because it has more specifications
+than other modules and is more convenient for our project.
+
+
+
+
+
+Results And Discussions
+Output in serial window
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/a3138bc7-066e-4076-b427-ebc76a379252)
+
+Lcd Results
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/611bf467-84d1-43db-b286-5000665b4d71)
+
+ThingSpeak results
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/0f2274a3-bcda-4e2f-9c27-49a07710f430)
+
+Numeric data
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/88c98b31-16a7-4545-9bf6-ac47c9c3b34a)
+
+Twitter Results
+![image](https://github.com/Shriraksha-2002/Attendance-monitoring-system/assets/140712955/622277f3-c4eb-4a66-b388-2726b522e422)
+
+
+
+Conclusion
+The IoT-based attendance monitoring system is very successful and reliable. It can be
+turned into an efficient and error-free attendance management system for schools, colleges,
+and other organizations.In our project, we have used RFID sensor.Each user will be
+provided with RFID tags which contains 12-digit unique code.Only if the user is present
+on that particular date and within time, the attendance will be considered.Once the RFID
+tag is scanned by the user the entry time, date, month will be recorded. We have used
+ThingSpeak cloud platform which is used to collect the data and store it in the cloud with
+advanced data analysis.Every time a user scans the card a tweet is sent. This system is
+easy to use and very convenient, making it a great choice for any organization. Thus, we
+have completed our project successfully.
+
+Future Scope
+The Internet of Things (IoT) is a growing technology that is being used more and more
+around the world. It allows us to have a more in-depth understanding of other cloud-based
+applications, as well as to develop enhanced solutions using technologies such as touch
+less sensing devices. The system can be improved by using face recognition technology to
+help calculate attendance percentages.
+
+
 
